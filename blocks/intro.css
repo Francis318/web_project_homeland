@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 302px 0 92px;
-  max-width: 830px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@
 @media screen and (max-width: 768px) {
   .intro {
     padding: 0 0 88px;
-    max-width: 720px;
+    max-width: 90%;
   }
 
   .intro__title {
@@ -72,10 +72,10 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   .intro {
     padding: 0 0 64px;
-    max-width: 288px;
+    max-width: 90%;
   }
 
   .intro__title {

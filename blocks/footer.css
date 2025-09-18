@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   .footer {
     height: 14px;
   }

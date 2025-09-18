@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   padding: 91.06px 0 92px;
-  max-width: 984px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@
 @media screen and (max-width: 768px) {
   .lead {
     padding: 90px 0 90px;
-    max-width: 720px;
+    max-width: 90%;
     margin: 0 auto;
   }
 
@@ -54,10 +54,10 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   .lead {
     padding: 50px 0 64px;
-    max-width: 288px;
+    max-width: 90%;
     margin: 0 auto;
   }
 
